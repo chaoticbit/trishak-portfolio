@@ -29,14 +29,14 @@ export const experienceInIndia = {
     category: 'Experiences in INDIA',
     exp: [
         {
-            title: 'title',
+            title: 'Teach for india',
             meta: 'post meta',
-            description: 'Magna eos duo accusam diam et ipsum sed consetetur. Tempor et elitr amet stet, sea dolores ipsum lorem erat. No vero sea erat dolore sadipscing. Vero accusam stet consetetur voluptua vero rebum labore, sanctus stet aliquyam erat sanctus takimata sed rebum, et sanctus gubergren justo dolor ipsum takimata magna voluptua.'
+            description: 'In Pune, I taught at a local public school with Teach for India. My aim was to join the low-income community to engage with a community that was culturally, economically and socially different but full of opportunities to transform the students into leaders of tomorrow. It required a clear vision for my classes, a robust plan which would slowly build their future. Research and strong interpersonal skills were the foundation of my time at Teach for India. I wanted them to learn from each other, discuss not only courses but their interests, goals, dreams and explore a plethora of opportunities. Book readings, plays, “Movie Mondays”, football matches, dance class etc. were a fresh change, the school welcomed in the same direction.'
         },
         {
-            title: 'title',
+            title: 'Algorhythm',
             meta: 'post meta',
-            description: 'Magna eos duo accusam diam et ipsum sed consetetur. Tempor et elitr amet stet, sea dolores ipsum lorem erat. No vero sea erat dolore sadipscing. Vero accusam stet consetetur voluptua vero rebum labore, sanctus stet aliquyam erat sanctus takimata sed rebum, et sanctus gubergren justo dolor ipsum takimata magna voluptua.'
+            description: 'I have embraced various roles after graduation in Computer Science. I started working in a software firm – Algorhythm Tech Pvt Ltd. in Pune. Here I was responsible for product research, and development alongside Araf Karsh, CTO of the company. Communication was key, since in a start-up, fewer people were handling multiple tasks. We build a search engine for an app the company was developing. The research revolved around search engines, their evolution, and user experience which we used as guidelines to create blue print for our search engine. Our primary client was Women and Child Development, Maharashtra. This included multiple governmental departments and a large amount of data. Making the search engine flexible, simple yet effective across these departments was a challenge we saw through with success. Understanding the client’s need, and providing them with the best solution was our priority.'
         }
     ]    
 }
@@ -45,13 +45,13 @@ export const youtube = {
     category: 'YouTube content',
     videos: [
         {
-            title: 'title',
+            title: 'Creatively Speaking',
             meta: 'post meta',
             description: 'Magna eos duo accusam diam et ipsum sed consetetur. Tempor et elitr amet stet, sea dolores ipsum lorem erat. No vero sea erat dolore sadipscing.',
             url: 'https://www.youtube.com/embed/sZ6TZGf50bI',            
         },
         {
-            title: 'title',
+            title: 'Words of Change: Dr. Martin Luther King Jr.',
             meta: 'post meta',
             description: 'Magna eos duo accusam diam et ipsum sed consetetur. Tempor et elitr amet stet, sea dolores ipsum lorem erat. No vero sea erat dolore sadipscing.',
             url: 'https://www.youtube.com/embed/GMkYfbune1E',            

@@ -118,6 +118,9 @@ h3 {
     font-size: 90%;
     margin: 0;
 }
+.post-description .post-title {
+    padding-top: 10px;
+}
 
 .post-category {
     margin: 0 0.1em;
@@ -158,6 +161,9 @@ h3 {
 .blog-grid-item-title {
     font-size: 17px;
     padding-top: 10px;
+}
+.blog-grid-item-title > a {
+    color: #333333;
 }
 
 .footer {
@@ -234,7 +240,7 @@ h3 {
         text-align: left;
     }
     .nav ul > li .pure-u-md-1-8 { display: none !important; }
-    .nav ul > li { font-size: 14px; }
+    .nav ul > li { font-size: 14px ;}
 }
 
 /* pure-hidden-xs */

@@ -57,7 +57,7 @@ const MainContent = () => {
                         {blogs.content.map((item, key) => (
                             <div className="pure-u-1 pure-u-md-1-4" style={{'padding':'0 15px 0 0'}} key={key}>
                                 <div className="blog-grid-item-image" style={{backgroundImage: `url(${item.url})`}}></div>
-                                <div className="blog-grid-item-title">{item.title}</div>                                                                
+                                <div className="blog-grid-item-title"><a href={item.url} target="_blank" rel="noopener noreferrer">{item.title}</a></div>                                                                
                             </div>                           
                         ))}
                         </div>
