@@ -22,7 +22,10 @@ const MainContent = () => {
                     <div className="post-description">
                         <div className="post-images pure-g">
                             <div className="pure-u-1 pure-u-md-1-2 pad-class">
-                                <a href={publication.url} target="_blank" rel="noopener noreferrer"><div style={{background: `url(${publication.image}) no-repeat left`,backgroundSize: 'cover', height: '315px'}}></div></a>
+                                <a href={publication.url} target="_blank" rel="noopener noreferrer">
+                                    <div style={{background: `url(${publication.image}) no-repeat left`,backgroundSize: 'cover', height: '315px'}} className="pub-image-bg"></div>
+                                    <img src={publication.image} alt="Publication" style={{width: '100%',height:'315px'}} className="pub-img" />
+                                </a>
                             </div>
                             <div className="pure-u-1 pure-u-md-1-2" style={{'padding':'0 10px 0 0'}}>
                                 <div className="post-meta">{publication.meta}</div>
@@ -59,8 +62,7 @@ const MainContent = () => {
                             <div className="pure-u-1 pure-u-md-1-2 pad-class" key={key}>
                                 <iframe src={item.url} title={item.title} frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
                                 <div className="post-title">{item.title}</div>
-                                <div className="post-meta">{item.meta}</div>
-                                {item.description}
+                                <div className="post-meta">{item.meta}</div>                                
                             </div>                           
                         ))}
                         </div>
